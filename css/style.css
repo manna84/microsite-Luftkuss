@@ -1,10 +1,93 @@
 /*--------------BASIC SETUP---------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Overpass:wght@400;600;700;800;900&display=swap');
+
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-size: 2em;
+    color: #555555;
+    font-weight: 400;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*--------------BASIC SETUP---------------*/
+
+header {
+    background-image: linear-gradient(#000000bd, #000000bd), url(/css/img/background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.main-logo {
+    height: 4em;
+    margin: 1em 2em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: 2em;
+}
+
+header nav li {
+    margin-right: 2em;
+}
+
+header nav ul li a {
+    color: #f1c40f;
+    letter-spacing: .125em;
+    border-bottom: .125em solid transparent;
+    padding-bottom: .225em;
+}
+
+header nav ul li a:hover {
+    color: #ffffff;
+    border-bottom: .125em solid #f1c40f;
+    transition: color .2s, border-bottom .2s;
+}
+
+.hero-text-box {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+}
+
+.hero-text-box img:first-of-type {
+    height: 6em;
+}
+
+.hero-text-box img:last-of-type {
+    margin-left: 2em;
+    height: 8em;
+}
+
+
+
+
+
 
