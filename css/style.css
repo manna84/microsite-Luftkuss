@@ -14,6 +14,7 @@ body {
     color: #555555;
     font-weight: 400;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
+    line-height: 145%;
 }
 
 ul {
@@ -25,15 +26,39 @@ a {
     text-transform: uppercase;
 }
 
-/*--------------BASIC SETUP---------------*/
-
-header {
-    background-image: linear-gradient(#000000bd, #000000bd), url(/css/img/background.jpg);
+header, section {
     height: 100vh;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+}
+
+section {
+    padding: 5% 2%;
+}
+
+.btn {
+    border: .125em solid red;
+    padding: 1% 2%;
+    letter-spacing: .125em;
+    word-spacing: .2em;
+    position: absolute;
+}
+
+.btn-full {
+    background-color: red;
+    color: #ffffff;
+}
+
+.btn-ghost {
+    color: #ffffff;
+}
+
+/*--------------Header---------------*/
+
+header {
+    background-image: linear-gradient(#000000bd, #000000bd), url(/css/img/background.jpg);
 }
 
 .main-logo {
@@ -86,8 +111,160 @@ header nav ul li a:hover {
     height: 8em;
 }
 
+.sub-heading {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+
+.sub-heading img {
+    height: 2.5em;
+}
+
+.btn-box {
+    margin-top: 1em;
+}
+
+.btn-box .btn {
+    color: #ffffff;
+    border-radius: 50em;
+    padding: 2% 5%;
+}
+
+.sign-full {
+    background-color: rgb(240, 1, 1);
+}
+
+.sign-ghost {
+    left: 40%;
+}
 
 
 
+/*--------------BAND-1---------------*/
 
+.section-band-1, .section-about-1 {
+    background-image: linear-gradient(#0000008f,#0000008f), url(/css/img/placebo.jpg);
+}
 
+/* .hl, .vl {
+    position: absolute;
+    opacity: .5;
+} 
+
+.hl {
+    width: 20%;
+    border-top: .2em solid red;
+    top: 30%;
+    left: 30%;
+}
+
+.vl {
+    height: 45%;
+    border-left: .2em solid red;
+    top: 30%;
+    left: 50%;
+} */
+
+.lf, .rt {
+    position: absolute;
+    width: 10%;
+    border-top: .2em solid red;
+    top: 84%;
+}
+
+.lf {
+    left: 28%;
+}
+
+.rt {
+    left: 61%;
+}
+
+.venue-btn-ghost {
+    top: 25%;
+    left: 38%;
+}
+
+.venue-btn-full a {
+    top: 80%;
+    left: 41%;
+}
+
+.venue-btn-full a:first-of-type {
+    left: 8%;
+}
+
+.venue-btn-full a:last-of-type {
+    left: 74%;
+}
+
+.ticket-btn {
+    height: 8em;
+    width: 8em;
+    border-radius: 200em;
+    text-align: center;
+    padding: 4% 0;
+    left: 80%;
+    top: 10%;
+    color: #ffffff;
+    background-color: red;
+    font-weight: 900;
+    font-size: 140%;
+    line-height: 160%;
+}
+
+h1 {
+    font-size: 500%;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*--------------About-1---------------*/
+
+.artist-about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.artist-about img {
+    height: 20em;
+}
+
+.artist-bio {
+    padding: 0 2%;
+}
+
+h2 {
+    font-size: 300%;
+    margin-bottom: .5em;
+    color: #ffffff;
+}
+
+.artist-bio p {
+    text-align: justify;
+    color: #ffffff;
+}
+
+.artist-photo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+.artist-photo img {
+    height: 13em;
+}
+
+/*--------------BAND-2---------------*/
+
+.section-band-2, .section-about-2 {
+    background-image: linear-gradient(#00000093,#00000093), url(/css/img/radiohead.jpg)
+}
+
+/*--------------BAND-3---------------*/
+
+.section-band-3, .section-about-3 {
+    background-image: linear-gradient(#00000093,#00000093), url(/css/img/killers-bg.jpg)
+}
