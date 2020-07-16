@@ -1,0 +1,202 @@
+/*--------------BASIC SETUP---------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Overpass:wght@400;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2em;
+    color: #555555;
+    font-weight: 400;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    line-height: 145%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header, section {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+section {
+    padding: 5% 2%;
+}
+
+/*--------------Header---------------*/
+
+header {
+    background-image: linear-gradient(#000000bd, #000000bd), url(/css/img/background.jpg);
+}
+
+.main-logo {
+    height: 4em;
+    margin: 1em 2em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: 2em;
+}
+
+header nav li {
+    margin-right: 2em;
+}
+
+header nav ul li a {
+    color: #f1c40f;
+    letter-spacing: .125em;
+    border-bottom: .125em solid transparent;
+    padding-bottom: .225em;
+}
+
+header nav ul li a:hover {
+    color: #ffffff;
+    border-bottom: .125em solid #f1c40f;
+    transition: color .2s, border-bottom .2s;
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+h1 {
+    font-size: 500%;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-weight: 900;
+    font-family: 'overpass',Arial, Helvetica, sans-serif;
+    letter-spacing: .05em;
+}
+
+.sub-heading {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.sub-heading img {
+    height: 2.5em;
+}
+
+.btn {
+    border: .125em solid red;
+    padding: 1% 2%;
+    letter-spacing: .125em;
+    word-spacing: .2em;
+    position: absolute;
+}
+
+.btn-box {
+    margin-top: 1em;
+}
+
+.btn-box .btn {
+    color: #ffffff;
+    border-radius: 50em;
+    padding: 2% 5%;
+}
+
+.sign-full {
+    background-color: rgb(240, 1, 1);
+}
+
+.sign-ghost {
+    left: 40%;
+}
+
+/*--------------BAND-1---------------*/
+
+.section-about-1 {
+    background-image: linear-gradient(#000000b0,#000000b0), url(/css/img/radiohead-bg.jpg);
+}
+
+.artist-about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.artist-about img {
+    height: 35em;
+}
+
+.artist-bio {
+    padding: 0 2%;
+}
+
+h2 {
+    font-size: 300%;
+    margin-bottom: .5em;
+    color: #ffffff;
+}
+
+.artist-bio p {
+    text-align: justify;
+    color: #ffffff;
+}
+
+.artist-extra {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+
+.artist-extra img {
+    height: 13em;
+}
+
+/*--------------BAND-2---------------*/
+
+.section-about-2 {
+    background-image: linear-gradient(#00000093,#00000093), url(/css/img/radiohead.jpg)
+}
+
+/*--------------BAND-3---------------*/
+
+.section-about-3 {
+    background-image: linear-gradient(#00000093,#00000093), url(/css/img/killers-bg.jpg)
+}
+
+/*--------------Footer---------------*/
+
+footer {
+    background-color: #202020;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: center;
+    padding: 3%;
+    font-size: 90%;
+}
+
+.footer-loc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copy-text {
+    margin-top: 1em;
+}
