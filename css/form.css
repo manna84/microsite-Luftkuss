@@ -74,19 +74,118 @@ header nav ul li a:hover {
 
 /*--------------Form---------------*/
 
+.form-box {
+    text-align: center;
+}
+
+.form {
+    border: .05em solid red;
+    width: 25%;
+    padding: 2% 1%;
+    margin: 2em auto;
+    border-radius: .5em;
+    justify-content: space-between;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.form div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+label {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+input {
+    width: 25em;
+    padding: 2%;
+}
+
+button {
+    width: 40%;
+    padding: 2%;
+    margin-top: 2em;
+    text-transform: uppercase;
+    background-color: red;
+    border: none;
+    color: #ffffff;
+    font-size: 60%;
+    letter-spacing: .125em;
+    border-radius: .1em;
+    font-weight: 700;
+}
+
 .member {
-    display: inline-block;
-    border: 5px solid red;
+    background-color: red;
     border-radius: 50em;
-    height: 10em;
-    width: 10em;
-    padding: 2% 4%;
+    height: 8em;
+    width: 8em;
+    padding: 7% 2%;
+    margin: 0 auto;
 }
 
 .member img {
-    height: 3em;
+    height: 2.5em;
 }
 
 .member a {
     display: block;
+    color: #ffffff;
 }
+
+.member-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 75%;
+    position: absolute;
+    top: 28%;
+    left: 15%;
+}
+
+.box-top {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.box-left {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.box-right {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.box-down {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+/*--------------Footer---------------*/
+
+footer {
+    background-color: #202020;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: center;
+    padding: 3%;
+    font-size: 90%;
+}
+
+.footer-loc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copy-text {
+    margin-top: 1em;
+}
+
+
