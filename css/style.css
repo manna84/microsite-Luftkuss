@@ -268,3 +268,23 @@ h2 {
 .section-band-3, .section-about-3 {
     background-image: linear-gradient(#00000093,#00000093), url(/css/img/killers-bg.jpg)
 }
+
+/*--------------Footer---------------*/
+
+footer {
+    background-color: #202020;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: center;
+    padding: 3%;
+    font-size: 90%;
+}
+
+.footer-loc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copy-text {
+    margin-top: 1em;
+}
