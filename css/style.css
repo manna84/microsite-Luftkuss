@@ -46,6 +46,11 @@ section {
     position: absolute;
 }
 
+.btn:hover {
+    border: .125em solid #ff1414;
+    transition: border .2s;
+}
+
 .btn-full {
     background-color: red;
     color: #ffffff;
@@ -74,6 +79,10 @@ header nav {
 header nav ul {
     display: flex;
     margin-top: 2em;
+}
+
+header nav ul img {
+    height: 1em;
 }
 
 header nav li {
@@ -133,11 +142,21 @@ header nav ul li a:hover {
 }
 
 .sign-full {
-    background-color: rgb(240, 1, 1);
+    background-color: red;
+}
+
+.sign-full:hover {
+    background-color: #ff1414;
+    transition: background-color .2s;
 }
 
 .sign-ghost {
     left: 40%;
+}
+
+.sign-ghost:hover {
+    background-color: #ff1414;
+    transition: background-color .2s;
 }
 
 
@@ -147,25 +166,6 @@ header nav ul li a:hover {
 .section-band-1, .section-about-1 {
     background-image: linear-gradient(#0000008f,#0000008f), url(/css/img/placebo.jpg);
 }
-
-/* .hl, .vl {
-    position: absolute;
-    opacity: .5;
-} 
-
-.hl {
-    width: 20%;
-    border-top: .2em solid red;
-    top: 30%;
-    left: 30%;
-}
-
-.vl {
-    height: 45%;
-    border-left: .2em solid red;
-    top: 30%;
-    left: 50%;
-} */
 
 .lf, .rt {
     position: absolute;
@@ -185,6 +185,12 @@ header nav ul li a:hover {
 .venue-btn-ghost {
     top: 25%;
     left: 38%;
+}
+
+.venue-btn-ghost:hover {
+    background-color: #ffffff;
+    color: red;
+    transition: background-color .2s, color .2s;
 }
 
 .venue-btn-full a {
@@ -213,6 +219,13 @@ header nav ul li a:hover {
     font-weight: 900;
     font-size: 140%;
     line-height: 160%;
+}
+
+.ticket-btn:hover {
+    background-color: #ffffff;
+    color: red;
+    transition: background-color .5s, color .5s;
+    
 }
 
 h1 {
@@ -255,6 +268,13 @@ h2 {
 
 .artist-photo img {
     height: 13em;
+    opacity: .7;
+}
+
+.artist-photo img:hover {
+    transform: scale(1.15);
+    opacity: 1;
+    transition: transform .5s, opacity .5s;
 }
 
 /*--------------BAND-2---------------*/
