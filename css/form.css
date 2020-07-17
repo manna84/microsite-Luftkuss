@@ -55,6 +55,10 @@ header nav ul {
     margin-top: 2em;
 }
 
+header nav ul img {
+    height: 1em;
+}
+
 header nav li {
     margin-right: 2em;
 }
@@ -108,16 +112,22 @@ input {
 
 button {
     width: 40%;
-    padding: 2%;
+    padding: 3%;
     margin-top: 2em;
     text-transform: uppercase;
     background-color: red;
     border: none;
     color: #ffffff;
-    font-size: 60%;
+    font-size: 70%;
     letter-spacing: .125em;
     border-radius: .1em;
     font-weight: 700;
+    opacity: .8;
+}
+
+button:hover {
+    opacity: 1;
+    transition: opacity ,.2s;
 }
 
 .member {
@@ -129,6 +139,12 @@ button {
     margin: 0 auto;
 }
 
+.member:hover {
+    background-color: #ffffff;
+    transition: background-color .5s;
+    
+}
+
 .member img {
     height: 2.5em;
 }
@@ -136,6 +152,11 @@ button {
 .member a {
     display: block;
     color: #ffffff;
+}
+
+.member a:hover {
+    color: red;
+    transition: color .5s;
 }
 
 .member-box {
