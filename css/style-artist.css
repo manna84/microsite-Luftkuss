@@ -41,7 +41,7 @@ section {
 /*--------------Header---------------*/
 
 header {
-    background-image: linear-gradient(#000000bd, #000000bd), url(/css/img/background.jpg);
+    background-image: linear-gradient(#000000bd, #000000bd), url(/css/img/artist-bg.jpg);
 }
 
 .main-logo {
@@ -61,6 +61,10 @@ header nav ul {
 
 header nav li {
     margin-right: 2em;
+}
+
+header nav ul img {
+    height: 1em;
 }
 
 header nav ul li a {
@@ -122,17 +126,27 @@ h1 {
 }
 
 .sign-full {
-    background-color: rgb(240, 1, 1);
+    background-color: red;
+}
+
+.sign-full:hover {
+    background-color: #ff1414;
+    transition: background-color .2s;
 }
 
 .sign-ghost {
     left: 40%;
 }
 
+.sign-ghost:hover {
+    background-color: #ff1414;
+    transition: background-color .2s;
+}
+
 /*--------------BAND-1---------------*/
 
 .section-about-1 {
-    background-image: linear-gradient(#000000b0,#000000b0), url(/css/img/radiohead-bg.jpg);
+    background-image: linear-gradient(#000000bd,#000000bd), url(/css/img/placebo-artist-bg.jpg);
 }
 
 .artist-about {
@@ -165,20 +179,32 @@ h2 {
     margin-top: 4em;
 }
 
+.artist-extra li {
+    overflow: hidden;
+}
+
 .artist-extra img {
-    height: 13em;
+    height: 12em;
+    opacity: .7;
+    max-width: 100%;
+}
+
+.artist-extra img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: transform .5s, opacity .5s ;
 }
 
 /*--------------BAND-2---------------*/
 
 .section-about-2 {
-    background-image: linear-gradient(#00000093,#00000093), url(/css/img/radiohead.jpg)
+    background-image: linear-gradient(#000000bd,#000000bd), url(/css/img/radiohead.jpg)
 }
 
 /*--------------BAND-3---------------*/
 
 .section-about-3 {
-    background-image: linear-gradient(#00000093,#00000093), url(/css/img/killers-bg.jpg)
+    background-image: linear-gradient(#000000bd,#000000bd), url(/css/img/killers-bg.jpg)
 }
 
 /*--------------Footer---------------*/
