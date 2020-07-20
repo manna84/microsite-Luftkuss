@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1920px) {
+    .form {
+        width: 35%;
+        left: 32%;
+        top: 28%;
+    }
+
+    .member-box {
+        left: 9%;
+        width: 81%;
+        top: 25%;
+    }
+
+}

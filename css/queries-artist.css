@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1920px) {
+
+    h1 {
+        font-size: 400%;
+        line-height: 120%;
+    }
+
+    .sub-heading {
+        top: 63%;
+        left: 25%;
+    }
+    
+    .sub-heading img {
+        height: 2em;
+    }
+
+
+    .artist-about img {
+        height: 25em;
+    }
+
+    h2 {
+        font-size: 220%;
+    }
+
+    .artist-bio p {
+        font-size: .7em;
+    }
+
+    .artist-extra {
+
+        margin-top: 2em;
+    }
+
+    .artist-extra img {
+        height: 10em;
+    }
+
+    
+
+}
