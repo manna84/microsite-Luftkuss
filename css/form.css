@@ -137,6 +137,7 @@ button:hover {
     width: 8em;
     padding: 7% 2%;
     margin: 0 auto;
+    opacity: .8;
 }
 
 .member:hover {
