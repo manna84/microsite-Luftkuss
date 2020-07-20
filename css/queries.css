@@ -24,7 +24,6 @@
         width: 7em;
         padding: 3% 0;
         font-size: 1em;
-       
     }
 
     .lf, .rt {
@@ -57,6 +56,197 @@
 
     .artist-bio p {
         font-size: .6em;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    body {
+        line-height: 100%;
+    }
+
+    .hero-text-box img:first-of-type {
+        height: 3em;
+    }
+    
+    .hero-text-box img:last-of-type {
+        height: 4.5em;
+    }
+
+    .sub-heading {
+        left: 30%;
+    }
+    
+    .sub-heading img {
+        height: 1.5em;
+    }
+
+    .hero-text-box {
+        left: 55%;
+    }
+
+    .btn-box .btn {
+        padding: 2% 4%;
+        font-size: .8em;
+    }
+
+    .venue-btn-ghost {
+        left: 27%;
+    }
+
+    .ticket-btn {
+        padding: 3.5% 0;
+        font-size: .8em;
+    }
+
+    .lf, .rt {
+        display: none;
+    }
+
+    .venue-btn-full a {
+        top: 80%;
+        left: 37%;
+        font-size: .8em;
+    }
+
+    .venue-btn-full a:first-of-type {
+        left: 4%;
+    }
+    
+    .venue-btn-full a:last-of-type {
+        left: 70%;
+    }
+
+    .artist-about img {
+        height: 10em;
+    }
+
+    .artist-photo img {
+        height: 10em;
+        opacity: .7;
+    }
+
+
+}
+
+@media only screen and (max-width: 360px) {
+    .main-logo {
+        height: 3em;
+    }
+
+    header nav {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    .hero-text-box img:first-of-type {
+        height: 1em;
+    }
+    
+    .hero-text-box img:last-of-type {
+        height: 1.5em;
+        margin-left: .5em;
+    }
+
+    .hero-text-box {
+        left: 50%;
+    }
+
+    .sub-heading img {
+        height: 1em;
+    }
+
+    .sub-heading {
+        top: 55%;
+        left: 50%;
+    }
+
+    .btn-box .btn {  
+        font-size: .6em;
+    }
+
+    .sign-ghost {
+        left: 60%;
+    }
+
+    h1 {
+        font-size: 200%;
+        margin-top: 2em;
+    }
+
+    .venue-btn-ghost {
+        top: 20%;
+        left: 5%;
+        font-size: .6em;
+    }
+
+    .ticket-btn {    
+        left: 25%;
+        top: 30%;
+        padding: 10% 0;
+    }
+
+    .venue-btn-full {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .venue-btn-full a {
+        left: 10%;
+        top: 81%;
+    }
+
+    .venue-btn-full a:first-of-type {
+        left: 10%;
+        top: 72%;
+    }
+    
+    .venue-btn-full a:last-of-type {
+        left: 10%;
+        top: 90%;
+    }
+
+    .artist-about {
+        flex-direction: column;
+    }
+
+    .artist-about img {
+        height: 7em;
+    }
+
+    h2 {
+        font-size: 150%;
+        text-align: center;
+        margin: 1em;
+    }
+
+    section {
+        height: 300vh;
+    }
+
+    .artist-photo {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .artist-photo img {
+        height: 8em;
+        margin: .5em;
+    }
+
+
+    footer {
+        font-size: 50%;
+    }
+
+    .footer-loc {
+        flex-direction: column;
     }
 
 }

@@ -12,3 +12,63 @@
     }
 
 }
+
+@media only screen and (max-width: 1200px) {
+    label {
+        font-size: .7em;
+        width: 10em;
+    }
+
+    .member-box {
+        width: 90%;
+        left: 4.5%;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .main-logo {
+        height: 3em;
+    }
+
+    header nav {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    .form {
+        width: 95%;
+        position: static;
+        padding: 4%;
+    }
+
+    label {
+        font-size: .6em;
+        width: 7em;
+        font-size: .5em;
+    }
+
+    input {
+        width: 15em;
+    }
+
+    header {
+        height: 150vh;
+    }
+
+    footer {
+        font-size: 50%;
+    }
+
+    .footer-loc {
+        flex-direction: column;
+    }
+
+    .member-box {
+        display: none;
+    }
+}

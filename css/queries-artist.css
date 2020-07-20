@@ -36,6 +36,125 @@
         height: 10em;
     }
 
+}
+
+@media only screen and (max-width: 1200px) {
+
+    body {
+        line-height: 140%;
+    }
+
+    h1 {
+        font-size: 280%;
+    }
+
+    .sub-heading {
+        top: 60%;
+        left: 35%;
+    }
     
+    .sub-heading img {
+        height: 2em;
+    }
+
+    .btn-box .btn {
+        padding: 2% 4%;
+        font-size: .8em;
+    }
+
+    .artist-about img {
+        height: 20em;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .artist-extra img {
+        height: 7em;;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .main-logo {
+        height: 3em;
+    }
+
+    header nav {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    h1 {
+        font-size: 150%;
+    }
+
+    .hero-text-box {
+        left: 5%;
+    }   
+
+    .sub-heading img {
+        height: 1em;
+    }
+
+    .sub-heading {
+        top: 65%;
+        left: 50%;
+    }
+
+    .btn-box .btn {  
+        font-size: .5em;
+        padding: 1% 8%;
+    }
+
+    .sign-ghost {
+        left: 60%;
+    }
+
+    section {
+        height: 350vh;
+    }
+
+    .artist-about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .artist-about img {
+        height: 15em;
+    }
+
+    h2 {
+        font-size: 150%;
+        margin: 1em auto;
+    }
+
+    .artist-bio p {
+        text-align: center;
+        font-size: .6em;
+        line-height: 150%;
+    }
+
+    .artist-extra {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .artist-extra img {
+        height: 8em;
+    }
+
+    footer {
+        font-size: 50%;
+    }
+
+    .footer-loc {
+        flex-direction: column;
+    }
 
 }
