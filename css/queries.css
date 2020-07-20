@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1920px) {
+    .hero-text-box img:first-of-type {
+        height: 4em;
+    }
+    
+    .hero-text-box img:last-of-type {
+        height: 6em;
+    }
+
+    .sub-heading {
+        left: 24%;
+    }
+    
+    .sub-heading img {
+        height: 2em;
+    }
+
+    .venue-btn-ghost {
+        left: 35%;
+    }
+
+    .ticket-btn {
+        height: 7em;
+        width: 7em;
+        padding: 3% 0;
+        font-size: 1em;
+       
+    }
+
+    .lf, .rt {
+        width: 8%;
+    }
+
+    .lf {
+        left: 30%;
+    }
+    
+    .rt {
+        left: 63.5%;
+    }
+
+    .venue-btn-full a:first-of-type {
+        left: 6%;
+    }
+    
+    .venue-btn-full a:last-of-type {
+        left: 74%;
+    }
+
+    .artist-about img {
+        height: 12em;
+    }
+
+    h2 {
+        font-size: 240%;
+    }
+
+    .artist-bio p {
+        font-size: .6em;
+    }
+
+}
