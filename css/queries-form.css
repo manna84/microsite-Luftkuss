@@ -57,7 +57,7 @@
     }
 
     header {
-        height: 150vh;
+        height: 230vh;
     }
 
     footer {
@@ -69,6 +69,25 @@
     }
 
     .member-box {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        position: static;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .member img {
+        height: 1.5em;
+    }
+
+    .member {
+        height: 5em;
+        width: 5em;
+        margin-bottom: .5em;
+    }
+
+    .member a {
+        font-size: .6em;
+        line-height: 140%;
     }
 }
