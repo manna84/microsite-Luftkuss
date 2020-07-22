@@ -63,7 +63,7 @@ section {
 /*--------------Header---------------*/
 
 header {
-    background-image: linear-gradient(#000000bd, #000000bd), url(/css/img/background.jpg);
+    background-image: linear-gradient(#000000bd, #000000bd), url(img/background.jpg);
 }
 
 .main-logo {
@@ -163,7 +163,7 @@ header nav ul li a:hover {
 /*--------------BAND-1---------------*/
 
 .section-band-1, .section-about-1 {
-    background-image: linear-gradient(#0000008f,#0000008f), url(/css/img/placebo.jpg);
+    background-image: linear-gradient(#0000008f,#0000008f), url(img/placebo.jpg);
 }
 
 .lf, .rt {
@@ -283,13 +283,13 @@ h2 {
 /*--------------BAND-2---------------*/
 
 .section-band-2, .section-about-2 {
-    background-image: linear-gradient(#00000093,#00000093), url(/css/img/radiohead.jpg)
+    background-image: linear-gradient(#00000093,#00000093), url(img/radiohead.jpg)
 }
 
 /*--------------BAND-3---------------*/
 
 .section-band-3, .section-about-3 {
-    background-image: linear-gradient(#00000093,#00000093), url(/css/img/killers-bg.jpg)
+    background-image: linear-gradient(#00000093,#00000093), url(img/killers-bg.jpg)
 }
 
 /*--------------Footer---------------*/
