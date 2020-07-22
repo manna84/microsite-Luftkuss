@@ -146,7 +146,7 @@ h1 {
 /*--------------BAND-1---------------*/
 
 .section-about-1 {
-    background-image: linear-gradient(#000000bd,#000000bd), url(/css/img/placebo-artist-bg.jpg);
+    background-image: linear-gradient(#000000bd,#000000bd), url(./img/placebo-artist-bg.jpg);
 }
 
 .artist-about {
@@ -200,13 +200,13 @@ h2 {
 /*--------------BAND-2---------------*/
 
 .section-about-2 {
-    background-image: linear-gradient(#000000bd,#000000bd), url(/css/img/radiohead.jpg)
+    background-image: linear-gradient(#000000bd,#000000bd), url(./img/radiohead.jpg)
 }
 
 /*--------------BAND-3---------------*/
 
 .section-about-3 {
-    background-image: linear-gradient(#000000bd,#000000bd), url(/css/img/killers-bg.jpg)
+    background-image: linear-gradient(#000000bd,#000000bd), url(./img/killers-bg.jpg)
 }
 
 /*--------------Footer---------------*/
